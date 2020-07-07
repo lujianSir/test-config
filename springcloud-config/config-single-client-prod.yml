@@ -1,13 +1,1 @@
-spring:
-  application:
-    name: spring-cloud-client1 #服务名称
-server:
-  port: 9002
-
-
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    serviceUrl:
-      defaultZone: http://localhost:8001/eureka/
+hello=生产环境
